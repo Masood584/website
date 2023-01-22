@@ -1,0 +1,148 @@
+.navbar {
+
+    background-color: #7E57C2 !important;
+}
+
+.nav-link {
+
+    color: #ffff !important;
+    font-weight: BOLD !important;
+}
+
+
+.nav-link:hover {
+
+    background-color: #CE93D8 !important;
+    border-radius: 5px !important;
+}
+
+.fa-cart-arrow-down,
+.fa-user-circle-o {
+
+    font-size: 32px !important;
+}
+
+.carousel-caption,
+h5,
+p {
+    color: rgb(0, 0, 0);
+}
+
+.maincard {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fa-truck,
+.fa-headphones,
+.fa-thumbs-up {
+
+    font-size: 50px !important;
+    margin-right: 10px;
+}
+
+.card1,
+.card2,
+.card3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7E57C2;
+    /* background-color: white; */
+    box-shadow: 5px 5px 5px plum;
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+
+}
+    .card1:hover,.card2:hover,.card3:hover{
+             background-color: #e6cceb;
+    }
+
+
+
+.main-head-arrival{
+    color: #7E57C2 ;
+    text-align: center;
+    margin: 20px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.new-product1 {
+
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    border: 5px solid rgb(176, 32, 189);
+    border-radius: 10px;
+    background-color: #ede6ee;
+}
+
+.p-head-colr {
+    color: rgb(176, 32, 189);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.p-price {
+
+    color: rgb(176, 32, 189);
+    font-size: 25px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.p-btn>button {
+    background-color: #CE93D8;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    padding: 7px 50px;
+    width: 100%;
+
+}
+
+.p-btn>button:hover{
+
+    background-color: #9931ad;
+    color: white;
+}
+
+.load-more{
+
+    text-align: center;
+    border: 2px solid #9931ad ;
+    color: #9931ad;
+    margin-top: 15px;
+    padding: 5px 0px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .products{
+    display:flex;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+    }
+}
